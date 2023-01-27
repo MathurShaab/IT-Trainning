@@ -1,0 +1,107 @@
+/* NAVBAR CSS START*/
+.navbar{
+	font-size: 20px;
+	background-color: black;
+	width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+.navbar-active {
+    background-color:rgb(53, 122, 187);
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-item{
+	margin-left: 30px;
+	
+}
+.navbar-brand{
+	font-size: x-large;
+	
+}
+
+#logoimg{
+	margin-top: 70px;
+}
+
+
+#containerforbuttons{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	padding: 10px;
+}
+
+.container{
+	width: 100%;
+	margin-top: 80px;
+	border-bottom: 5px solid rgb(165, 241, 241) ;
+	text-align: justify;
+}
+
+.button {
+	background-color:rgb(24, 104, 252); 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+	  
+	  h2{
+		color: #111; 
+		font-family:Arial, Helvetica, sans-serif; 
+		font-size: 50px; 
+		font-weight: bold; 
+		letter-spacing: -1px; 
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	  }
+	  h3{
+	   color: #111; 
+		font-family:Arial, Helvetica, sans-serif; 
+		font-size: 25px; 
+		font-weight: bold; 
+		letter-spacing: -1px; 
+		text-align: center;
+		padding: 0;
+		margin-top: 25px; 
+	  }
+	  p {
+		color: #111; 
+		font-family: 'Calibri', sans-serif; 
+		font-size: 25px; 
+		line-height: 1.5;
+	  }
+	  
+	  hr {
+		background-color: #000;
+	  }
+	  table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	  }
+	  
+	  td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+	  }
+	  
+	  tr:nth-child(even) {
+		background-color: #dddddd;
+	  }
+	  .list{
+		font-size: 20px;
+	  }

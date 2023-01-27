@@ -1,0 +1,32 @@
+/* NAVBAR CSS START*/
+.navbar{
+	font-size: 20px;
+	background-color: black;
+	width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+.navbar-active {
+    background-color:rgb(53, 122, 187);
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-item{
+	margin-left: 30px;
+	
+}
+.navbar-brand{
+	font-size: x-large;
+	
+}
+
+.login{
+    border-bottom: 5px solid rgb(165, 241, 241) ;
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+body{
+    background: linear-gradient(rgb(255, 255, 255),rgb(172, 253, 253),#e0f2f7);
+}

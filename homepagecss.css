@@ -1,0 +1,156 @@
+/* NAVBAR CSS START*/
+.navbar{
+	font-size: 20px;
+	background-color: black;
+	width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+.navbar-active {
+    background-color:rgb(53, 122, 187);
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-item{
+	margin-left: 30px;
+}
+.navbar-brand{
+	font-size: x-large;
+}
+
+/* SLIDER CSS */
+#carouselExampleCaptions{
+	margin-top: 15px;
+	height: 10%;
+	width: 80%;
+	border-radius: 50px;
+}
+
+/*ALL CONTAINERS CSS*/
+.container{
+    margin-top: 80px;
+    font-size: larger;
+	border-left: 5px solid rgb(53, 122, 187);
+	border-radius: 5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 15px;	
+}
+
+.col-md-5{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#featuresbox{
+	border-top: 5px solid rgb(53, 122, 187);
+	box-shadow: -1px 0px 15px -1px gray;
+}
+
+
+/* headings */
+h2{
+    margin: 5px;
+}
+
+/* .row{
+    margin: 20px;
+} */
+
+
+/* images */
+.img-thumbnail
+{
+	margin-left: 10%;
+	margin-top: 10px;
+	width: 30vw;
+	border-radius: 10px;
+}
+
+
+#company-link{
+	text-decoration: none;
+}
+
+/* Discription card */
+.card1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	border-right: 5px solid rgb(53, 122, 187);
+	border-radius: 5px;
+}
+/* whyittraining card */
+.card2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	border-left: 5px solid rgb(53, 122, 187);
+	border-radius: 5px;
+}
+
+/* card 1 and 2 images */
+.img-fluid{
+	height: 400px;
+	width: 100%;
+}
+.img-fluid2{
+	height: 300px;
+	width: 100%;
+}
+
+/* slider backgorund container */
+.container-fluid1{
+	width: 100%;
+	margin-top: 70px;
+	background: linear-gradient(black,rgb(22, 22, 22));
+	padding: 20px;
+}
+
+
+
+
+
+/* SPlash screen code */
+.splash{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:black;
+	z-index: 200;
+	color: white;
+	text-align: center;
+	line-height: 90vh;
+}
+
+.splash.display-none{
+	position: fixed;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:black;
+	z-index: -10;
+	color: white;
+	text-align: center;
+	line-height: 90vh;
+}
+
+.fade-in{
+    width: 30%;
+
+    
+}
+@keyframes fadeIn{
+
+to{
+	opacity: 1;
+}
+
+}
+.fade-in{
+	opacity: 0;
+	animation: fadeIn 1s ease-in forwards;
+}

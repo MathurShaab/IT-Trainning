@@ -1,0 +1,33 @@
+/* NAVBAR CSS START*/
+.navbar{
+	font-size: 20px;
+	background-color: black;
+	width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+.navbar-active {
+    background-color:rgb(53, 122, 187);
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-item{
+	margin-left: 30px;
+	
+}
+.navbar-brand{
+	font-size: x-large;
+	
+}
+.feedback{
+    padding-top: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 10px;
+    border-bottom: 5px solid rgb(165, 241, 241) ;
+    
+}
+#h3
+{
+   margin-bottom: 15px;    
+}
